@@ -24,7 +24,7 @@ variable "repository" {
 
 variable "managedby" {
   type        = string
-  default     = "shanav-tech"
+  default     = "Shanav-Technologies"
   description = "ManagedBy, eg 'cypik'."
 }
 

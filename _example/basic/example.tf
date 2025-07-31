@@ -11,7 +11,7 @@ locals {
 ## VPC Module Call.
 ##-----------------------------------------------------------------------------
 module "vpc" {
-  source      = "git::https://github.com/shanav-tech/terraform-aws-vpc.git?ref=v1.0.0"
+  source      = "git::https://github.com/Shanav-Technologies/terraform-aws-vpc.git?ref=v1.0.0"
   name        = local.name
   environment = local.environment
   cidr_block  = "10.0.0.0/16"
